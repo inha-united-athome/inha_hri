@@ -1,13 +1,16 @@
 <div align="center">
-  <img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="110" />
-  <h1>inha_hri</h1>
-  <span><b>Inha-United@Home</b> : ROS 2 Human–Robot Interaction package</span>
+  <img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="110" /><br/>
+  <big><big><b>inha_hri</b></big></big><br/>
+  <span><b>Inha-United@Home</b> : ROS 2 Human–Robot Interaction package</span><br/><br/>
+
   <img src="https://img.shields.io/badge/Ubuntu-22.04-orange?style=flat&logo=ubuntu" />
   <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python" />
   <img src="https://img.shields.io/badge/ROS2-Humble-blue?style=flat&logo=ros" />
   <br/><br/>
+
   <a href="#overview">Overview</a> • <a href="#architecture">Architecture</a> • <a href="#installation">Installation</a> • <a href="#usage">Usage</a> • <a href="#interfaces">Interfaces</a> • <a href="#contributing">Contributing</a>
 </div>
+
 
 Overview
 ---
