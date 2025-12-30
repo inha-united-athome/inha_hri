@@ -13,18 +13,16 @@
 
 <br/>
 
-[Resources](#resources) • [Overview](#overview) • [Architecture](#architecture) • [Installation](#installation) • [Usage](#usage) • [Interfaces](#interfaces) • [Contributing](#contributing)
+[Overview](#overview) • [Architecture](#architecture) • [Installation](#installation) • [Usage](#usage) • [Interfaces](#interfaces) • [Contributing](#contributing)
 
 </div>
 
-### **Resources**
-- 🌐 [Team Website](https://inha-united.github.io/Home2026/)
-- 📄 [Team Descriptor 2026](https://github.com/inha-united-athome/.github/raw/main/profile/Inha_United_Team_Description_Paper.pdf)
-
 ### **Overview**
+---
 `inha_hri` provides core human–robot interaction capabilities for the Inha-United@Home stack, including speech and interaction utilities, and integration points for mission behaviors.
 
 ### **Architecture**
+---
 ```text
 inha_hri/
 ├── 📁 launch/        # Launch files
@@ -37,6 +35,7 @@ inha_hri/
 ```
 
 ### **Installation**
+---
 **Prerequisites**
 - Ubuntu 22.04
 - ROS 2 Humble
@@ -57,6 +56,7 @@ source install/setup.bash
 ```
 
 ### **Usage**
+---
 ```bash
 # Launch (example)
 ros2 launch inha_hri <LAUNCH_FILE>.launch.py
@@ -66,6 +66,7 @@ ros2 run inha_hri <NODE_EXECUTABLE>
 ```
 
 ### **Interfaces**
+---
 **Topics**
 | Name | Type | Description |
 |------|------|-------------|
