@@ -2,9 +2,7 @@
 
 <img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="100" /><br/>
 <b>Inha-United@home</b>
-
 <br/><br/>
-
 ![UBUNTU](https://img.shields.io/badge/UBUNTU-22.04-orange?style=for-the-badge&logo=ubuntu)
 ![python](https://img.shields.io/badge/python-3.10-blue?style=for-the-badge&logo=python)
 ![ROS2](https://img.shields.io/badge/ROS2-Humble-blue?style=for-the-badge&logo=ros)
@@ -12,7 +10,6 @@
 [![Issues](https://img.shields.io/github/issues/inha-united-athome/<REPO_NAME>?style=for-the-badge)](https://github.com/inha-united-athome/<REPO_NAME>/issues)
 [![PRs](https://img.shields.io/github/issues-pr/inha-united-athome/<REPO_NAME>?style=for-the-badge)](https://github.com/inha-united-athome/<REPO_NAME>/pulls)
 [![Contributors](https://img.shields.io/github/contributors/inha-united-athome/<REPO_NAME>.svg?style=for-the-badge)](https://github.com/inha-united-athome/<REPO_NAME>/graphs/contributors)
-
 </div>
 
 ### **Hi there 👋**
