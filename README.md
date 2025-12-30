@@ -1,28 +1,20 @@
 <div align="center">
-
 <img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="110" />
 
 ### **inha_hri**
-<sub><b>Inha-United@Home</b> — ROS 2 Human–Robot Interaction package</sub>
-
-<br/>
+<sub><b>Inha-United@Home</b> — ROS 2 Human–Robot Interaction package</sub><br/>
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?style=flat&logo=ubuntu)
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python)
 ![ROS 2](https://img.shields.io/badge/ROS2-Humble-blue?style=flat&logo=ros)
 
-<br/>
-
 [Overview](#overview) • [Architecture](#architecture) • [Installation](#installation) • [Usage](#usage) • [Interfaces](#interfaces) • [Contributing](#contributing)
-
 </div>
 
 ### **Overview**
----
 `inha_hri` provides core human–robot interaction capabilities for the Inha-United@Home stack, including speech and interaction utilities, and integration points for mission behaviors.
 
 ### **Architecture**
----
 ```text
 inha_hri/
 ├── 📁 launch/        # Launch files
@@ -35,7 +27,6 @@ inha_hri/
 ```
 
 ### **Installation**
----
 **Prerequisites**
 - Ubuntu 22.04
 - ROS 2 Humble
@@ -56,7 +47,6 @@ source install/setup.bash
 ```
 
 ### **Usage**
----
 ```bash
 # Launch (example)
 ros2 launch inha_hri <LAUNCH_FILE>.launch.py
@@ -66,7 +56,6 @@ ros2 run inha_hri <NODE_EXECUTABLE>
 ```
 
 ### **Interfaces**
----
 **Topics**
 | Name | Type | Description |
 |------|------|-------------|
