@@ -6,7 +6,11 @@
 ![ROS2](https://img.shields.io/badge/ROS2-Humble-blue?style=flat&logo=ros)
 
 
-<h2 align="center">inha_hri</h2>
+<div align="center">
+
+## **inha_hri**
+
+</div>
 
 
 ### **Architecture**
