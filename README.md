@@ -1,7 +1,6 @@
 <div align="center">
 
 <img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="100" /><br/>
-<b>Inha-United@home</b>
 <br/><br/>
 ![UBUNTU](https://img.shields.io/badge/UBUNTU-22.04-orange?style=for-the-badge&logo=ubuntu)
 ![python](https://img.shields.io/badge/python-3.10-blue?style=for-the-badge&logo=python)
