@@ -3,8 +3,6 @@
 ###**inha_hri**
 <sub><b>Inha-United@Home</b> — ROS 2 Human–Robot Interaction package</sub><br/>
 
-<br/>
-
 <img src="https://img.shields.io/badge/Ubuntu-22.04-orange?style=flat&logo=ubuntu" />
 <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python" />
 <img src="https://img.shields.io/badge/ROS2-Humble-blue?style=flat&logo=ros" />
