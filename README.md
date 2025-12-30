@@ -1,7 +1,6 @@
 <div align="center">
   <img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="110" /><br/>
   <h1>inha_hri</h1>
-  ---
   <span><b>ROS 2 Human–Robot Interaction package</span><br/><br/>
 
   <img src="https://img.shields.io/badge/Ubuntu-22.04-orange?style=flat&logo=ubuntu" />
