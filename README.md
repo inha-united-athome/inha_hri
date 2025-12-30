@@ -1,23 +1,88 @@
 <div align="center">
 
-<img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="100" /><br/>
-![UBUNTU](https://img.shields.io/badge/UBUNTU-22.04-orange?style=flat&logo=ubuntu)
-![python](https://img.shields.io/badge/python-3.10-blue?style=flat&logo=python)
-![ROS2](https://img.shields.io/badge/ROS2-Humble-blue?style=flat&logo=ros)
+<img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="110" />
 
+### **inha_hri**
+<sub><b>Inha-United@Home</b> — ROS 2 Human–Robot Interaction package</sub>
 
-<div align="center">
+<br/>
 
-## **inha_hri**
+![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?style=flat&logo=ubuntu)
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python)
+![ROS 2](https://img.shields.io/badge/ROS2-Humble-blue?style=flat&logo=ros)
+
+<br/>
+
+[Resources](#resources) • [Overview](#overview) • [Architecture](#architecture) • [Installation](#installation) • [Usage](#usage) • [Interfaces](#interfaces) • [Contributing](#contributing)
 
 </div>
 
+### **Resources**
+- 🌐 [Team Website](https://inha-united.github.io/Home2026/)
+- 📄 [Team Descriptor 2026](https://github.com/inha-united-athome/.github/raw/main/profile/Inha_United_Team_Description_Paper.pdf)
+
+### **Overview**
+`inha_hri` provides core human–robot interaction capabilities for the Inha-United@Home stack, including speech and interaction utilities, and integration points for mission behaviors.
 
 ### **Architecture**
 ```text
-<REPO_NAME>/
-├── launch/      # Launch files
-├── config/      # Params and configs
-├── src/         # Core nodes
-├── scripts/     # Utilities
-└── README.md
+inha_hri/
+├── 📁 launch/        # Launch files
+├── 📁 config/        # Parameters and configs
+├── 📁 src/           # Core nodes
+├── 📁 scripts/       # Utilities
+├── 📁 msg/           # Custom messages (if any)
+├── 📁 srv/           # Custom services (if any)
+└── 📄 README.md
+```
+
+### **Installation**
+**Prerequisites**
+- Ubuntu 22.04
+- ROS 2 Humble
+- `colcon`, `rosdep`
+
+```bash
+mkdir -p ~/inha_ws/src
+cd ~/inha_ws/src
+git clone https://github.com/inha-united-athome/inha_hri.git
+
+cd ~/inha_ws
+sudo rosdep init  # skip if already initialized
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y
+
+colcon build --symlink-install
+source install/setup.bash
+```
+
+### **Usage**
+```bash
+# Launch (example)
+ros2 launch inha_hri <LAUNCH_FILE>.launch.py
+
+# Run a node (example)
+ros2 run inha_hri <NODE_EXECUTABLE>
+```
+
+### **Interfaces**
+**Topics**
+| Name | Type | Description |
+|------|------|-------------|
+| `<topic_name>` | `<msg_type>` | `<what it does>` |
+
+**Services**
+| Name | Type | Description |
+|------|------|-------------|
+| `<service_name>` | `<srv_type>` | `<what it does>` |
+
+**Actions (optional)**
+| Name | Type | Description |
+|------|------|-------------|
+| `<action_name>` | `<action_type>` | `<what it does>` |
+
+### **Contributing**
+- Create a branch: `git checkout -b feat/<name>`
+- Commit: `git commit -m "Add <feature>"`
+- Push: `git push origin feat/<name>`
+- Open a Pull Request
