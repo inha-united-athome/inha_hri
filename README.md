@@ -1,7 +1,6 @@
 <div align="center">
-
-<h3><img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="100" />
-### **inha_hri**
+<img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="110" />
+###**inha_hri**
 <sub><b>Inha-United@Home</b> — ROS 2 Human–Robot Interaction package</sub><br/>
 
 <br/>
