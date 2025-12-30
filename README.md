@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_united.jpg" width="820" /><br/>
+<img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.jpg" width="200" /><br/>
 <b>Inha-United@home</b>
 
 <br/><br/>
