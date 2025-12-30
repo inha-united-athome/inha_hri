@@ -1,20 +1,31 @@
 <div align="center">
-<img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="110" />
-
-### **inha_hri**
-<sub><b>Inha-United@Home</b> — ROS 2 Human–Robot Interaction package</sub><br/>
-
-![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?style=flat&logo=ubuntu)
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python)
-![ROS 2](https://img.shields.io/badge/ROS2-Humble-blue?style=flat&logo=ros)
-
-[Overview](#overview) • [Architecture](#architecture) • [Installation](#installation) • [Usage](#usage) • [Interfaces](#interfaces) • [Contributing](#contributing)
+<table>
+<tr>
+<td width="140" align="center" valign="middle">
+  <img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="120" />
+</td>
+<td align="left" valign="middle">
+  <h3 style="margin:0;">inha_hri</h3>
+  <div><sub><b>Inha-United@Home</b> — ROS 2 Human–Robot Interaction package</sub></div>
+  <div>
+    <img src="https://img.shields.io/badge/Ubuntu-22.04-orange?style=flat&logo=ubuntu" />
+    <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python" />
+    <img src="https://img.shields.io/badge/ROS2-Humble-blue?style=flat&logo=ros" />
+  </div>
+  <div>
+    <a href="#overview">Overview</a> • <a href="#architecture">Architecture</a> • <a href="#installation">Installation</a> • <a href="#usage">Usage</a> • <a href="#interfaces">Interfaces</a> • <a href="#contributing">Contributing</a>
+  </div>
+</td>
+</tr>
+</table>
 </div>
 
 ### **Overview**
+---
 `inha_hri` provides core human–robot interaction capabilities for the Inha-United@Home stack, including speech and interaction utilities, and integration points for mission behaviors.
 
 ### **Architecture**
+---
 ```text
 inha_hri/
 ├── 📁 launch/        # Launch files
@@ -27,6 +38,7 @@ inha_hri/
 ```
 
 ### **Installation**
+---
 **Prerequisites**
 - Ubuntu 22.04
 - ROS 2 Humble
@@ -47,6 +59,7 @@ source install/setup.bash
 ```
 
 ### **Usage**
+---
 ```bash
 # Launch (example)
 ros2 launch inha_hri <LAUNCH_FILE>.launch.py
@@ -56,6 +69,7 @@ ros2 run inha_hri <NODE_EXECUTABLE>
 ```
 
 ### **Interfaces**
+---
 **Topics**
 | Name | Type | Description |
 |------|------|-------------|
@@ -72,6 +86,7 @@ ros2 run inha_hri <NODE_EXECUTABLE>
 | `<action_name>` | `<action_type>` | `<what it does>` |
 
 ### **Contributing**
+---
 - Create a branch: `git checkout -b feat/<name>`
 - Commit: `git commit -m "Add <feature>"`
 - Push: `git push origin feat/<name>`
