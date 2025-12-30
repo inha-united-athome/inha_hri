@@ -1,16 +1,15 @@
 <div align="center">
-<img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="110" />
-###**inha_hri**
-<sub><b>Inha-United@Home</b> — ROS 2 Human–Robot Interaction package</sub><br/>
+  <img src="https://github.com/inha-united-athome/.github/raw/main/profile/inha_logo.png" width="110" />
+  <h3>inha_hri</h3>
+  <sub><b>Inha-United@Home</b> — ROS 2 Human–Robot Interaction package</sub><br/><br/>
 
-<img src="https://img.shields.io/badge/Ubuntu-22.04-orange?style=flat&logo=ubuntu" />
-<img src="https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python" />
-<img src="https://img.shields.io/badge/ROS2-Humble-blue?style=flat&logo=ros" />
+  <img src="https://img.shields.io/badge/Ubuntu-22.04-orange?style=flat&logo=ubuntu" />
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python" />
+  <img src="https://img.shields.io/badge/ROS2-Humble-blue?style=flat&logo=ros" />
 
-<br/>
+  <br/><br/>
 
-<a href="#overview">Overview</a> • <a href="#architecture">Architecture</a> • <a href="#installation">Installation</a> • <a href="#usage">Usage</a> • <a href="#interfaces">Interfaces</a> • <a href="#contributing">Contributing</a>
-
+  <a href="#overview">Overview</a> • <a href="#architecture">Architecture</a> • <a href="#installation">Installation</a> • <a href="#usage">Usage</a> • <a href="#interfaces">Interfaces</a> • <a href="#contributing">Contributing</a>
 </div>
 
 Overview
